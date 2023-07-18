@@ -3,6 +3,13 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.text-light-gray{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #727272;
+      
+}
+
 .btn-primary {
   border-radius: 8px;
   background: #ff900e;
@@ -57,11 +64,7 @@ nav li a {
   color: #131313;
   font-weight: 700;
 }
-.banner-description {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #727272;
-}
+
 .banner img {
   width: 100%;
 }
@@ -109,9 +112,17 @@ main{
   header {
     padding: 20px;
   }
-  nav {
+  nav ,
+  .teams-container{
     flex-direction: column;
   }
+  .teams-img-container{
+    grid-template-columns: 1fr;
+  }
+  .teams-content{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
 }
 
 /* Medium devices  */
@@ -119,7 +130,7 @@ main{
   header {
     padding: 50px;
   }
-  nav {
+  nav , .teams-container {
     flex-direction: column;
   }
 
